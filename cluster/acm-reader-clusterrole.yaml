@@ -1,0 +1,14 @@
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: acm-reader
+  annotations:
+    configmanagement.gke.io/cluster-selector: selector-location-remote
+rules:
+- apiGroups:
+  - configmanagement.gke.io
+  resources:
+  - repos
+  - configmanagements
+  verbs:
+  - get
