@@ -4,4 +4,5 @@ metadata:
   labels:
     owner: "pipeline"
     istio-injection: "enabled"
+    goldilocks.fairwinds.com/enabled: "true"
   name: bookinfo
