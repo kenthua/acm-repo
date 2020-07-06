@@ -12,4 +12,4 @@ spec:
   parameters:
     labels:
       - key: "owner"
-#  enforcementAction: dryrun
+  enforcementAction: dryrun
