@@ -3,6 +3,6 @@ kind: Namespace
 metadata:
   labels:
     owner: "pipeline"
-    istio.io/rev: "asm-173-6"
+    istio.io/rev: "asm-181-5"
     goldilocks.fairwinds.com/enabled: "true"
   name: bookinfo
